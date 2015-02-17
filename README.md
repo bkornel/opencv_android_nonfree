@@ -1,11 +1,9 @@
-# opencv_android_nonfree
-
 My development environment is set up as follows:
 ================================================
 
 - android-ndk-r10d (install path: `D:\adt-bundle-windows-x86_64-20140702\android-ndk-r10d\`)
-- OpenCV-2.4.10-android-sdk (install path: `D:\CODE\OpenCV-2.4.10-android-sdk\`)
-- OpenCV-2.4.10 (install path: `D:\CODE\OpenCV-2.4.10\`)
+- OpenCV-2.4.10-android-sdk (install path: `D:\CODE\OpenCV-2.4.10-android-sdk\`), [Download link][12]
+- OpenCV-2.4.10 (install path: `D:\CODE\OpenCV-2.4.10\`), [Download link][13]
 
 Building the nonfree module
 ---------------------------
@@ -48,6 +46,8 @@ Building a sample application
 At this point you can easily extend the sample app with your `SVMDetector`. Just copy the source and include files int to the folder `libnonfree_demo\jni` and add cpp files to `LOCAL_SRC_FILES` in `Android.mk`.
 
 The whole source can be downloaded from: [https://github.com/bkornel/opencv_android_nonfree][11].
+
+Original source from: [http://web.guohuiwang.com/technical-notes/sift_surf_opencv_android][14]
  
   [1]: https://github.com/bkornel/opencv_android_nonfree/tree/master/_copy_to_opencv_sdk
   [2]: https://github.com/bkornel/opencv_android_nonfree/blob/master/libnonfree/jni/nonfree_init.cpp
@@ -60,4 +60,7 @@ The whole source can be downloaded from: [https://github.com/bkornel/opencv_andr
   [9]: https://github.com/bkornel/opencv_android_nonfree/blob/master/libnonfree_demo/jni/Application.mk
   [10]: https://github.com/bkornel/opencv_android_nonfree/blob/master/libnonfree_demo/jni/Android.mk
   [11]: https://github.com/bkornel/opencv_android_nonfree
+  [12]: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.10/OpenCV-2.4.10-android-sdk.zip/download
+  [13]: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.10/opencv-2.4.10.exe/download
+  [14]: http://web.guohuiwang.com/technical-notes/sift_surf_opencv_android
   
