@@ -63,14 +63,4 @@ Original source from: [http://web.guohuiwang.com/technical-notes/sift_surf_openc
   [12]: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.10/OpenCV-2.4.10-android-sdk.zip/download
   [13]: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.10/opencv-2.4.10.exe/download
   [14]: http://web.guohuiwang.com/technical-notes/sift_surf_opencv_android
-  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61966204-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+ 
